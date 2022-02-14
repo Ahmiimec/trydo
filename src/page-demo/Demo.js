@@ -1,6 +1,6 @@
 import React, {Component, Fragment} from "react";
 import ScrollToTop from 'react-scroll-up';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import {
     FaReact,
     FaSass
@@ -903,7 +903,7 @@ class Demo extends Component {
 
                     {/* Start Footer Area  */}
                     <footer className="call-to-action-wrapper text-white-wrapper call-to-action ptb--120 with-particles">
-                        <div className="frame-layout__particles">
+                        {/* <div className="frame-layout__particles">
                             <Particles
                                 params={{
                                     "particles": {
@@ -924,7 +924,7 @@ class Demo extends Component {
                                     }
                                 }}
                             />
-                        </div>
+                        </div> */}
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">

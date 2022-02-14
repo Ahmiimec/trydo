@@ -151,7 +151,7 @@ class HomeParticles extends Component{
                 {/* Start Slider Area   */}
                 
                 <div className="slider-activation slider-creative-agency with-particles" id="home">
-                    <div className="frame-layout__particles">
+                    {/* <div className="frame-layout__particles">
                         <Particles
                             params={{
                                 "particles": {
@@ -172,7 +172,7 @@ class HomeParticles extends Component{
                                 }
                             }}
                         />
-                    </div>
+                    </div> */}
                     <div className="bg_image bg_image--27">
                             {SlideList.map((value , index) => (
                                 <div className="slide slide-style-2 slider-paralax d-flex align-items-center justify-content-center" key={index}>
