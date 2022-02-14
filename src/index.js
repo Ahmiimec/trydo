@@ -8,7 +8,7 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
-// import Demo from './page-demo/Demo';
+import Demo from './page-demo/Demo';
 import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';
@@ -67,7 +67,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`/`} component={InteractiveAgency}/>
+                        <Route exact path={`/`} component={Demo}/>
                         <Route exact path={`/main-demo`} component={MainDemo}/>
                         <Route exact path={`/dark-main-demo`} component={DarkMainDemo}/>
                         <Route exact path={`/startup`} component={Startup}/>
