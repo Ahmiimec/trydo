@@ -8,7 +8,7 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 // Home layout
-import Demo from './page-demo/Demo';
+// import Demo from './page-demo/Demo';
 import MainDemo from './home/MainDemo';
 import Startup from './home/Startup';
 import Paralax from './home/Paralax';
@@ -20,7 +20,7 @@ import Business from './home/Business';
 import StudioAgency from './home/StudioAgency';
 import PortfolioLanding from './home/PortfolioLanding';
 import CreativeLanding from './home/CreativeLanding';
-import HomeParticles from './home/HomeParticles';
+// import HomeParticles from './home/HomeParticles';
 import CreativePortfolio from './home/CreativePortfolio';
 import DesignerPortfolio from './home/DesignerPortfolio';
 import InteriorLanding from './home/Interior';
@@ -81,7 +81,7 @@ class Root extends Component{
                         <Route exact path={`/portfolio-home`} component={HomePortfolio}/>
                         <Route exact path={`/portfolio-landing`} component={PortfolioLanding}/>
                         <Route exact path={`/creative-landing`} component={CreativeLanding}/>
-                        <Route exact path={`/home-particles`} component={HomeParticles}/>
+                        {/* <Route exact path={`/home-particles`} component={HomeParticles}/> */}
                         <Route exact path={`/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
                         <Route exact path={`/designer-portfolio`} component={DesignerPortfolio}/>
                         <Route exact path={`/creative-portfolio`} component={CreativePortfolio}/>
