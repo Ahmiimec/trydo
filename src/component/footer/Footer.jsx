@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/hasnainmalik10'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/hasnainmalik7'},
 ]
 
 class Footer extends Component{
@@ -18,7 +16,7 @@ class Footer extends Component{
                             <div className="col-lg-6">
                                 <div className="footer-left">
                                     <div className="inner">
-                                        <span>Ready To Do This</span>
+                                        <span>Want to Join us?</span>
                                         <h2>Let's get <br /> to work</h2>
                                         <a className="rn-button-style--2" href="/contact">
                                             <span>Contact Us</span>
@@ -30,7 +28,7 @@ class Footer extends Component{
                                 <div className="footer-right" data-black-overlay="6">
                                     <div className="row">
                                         {/* Start Single Widget  */}
-                                        <div className="col-lg-6 col-sm-6 col-12">
+                                        {/* <div className="col-lg-6 col-sm-6 col-12">
                                             <div className="footer-link">
                                                 <h4>Quick Link</h4>
                                                 <ul className="ft-link">
@@ -39,7 +37,7 @@ class Footer extends Component{
                                                     <li><a href="/contact">Let's Talk</a></li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> */}
                                         {/* End Single Widget  */}
                                         {/* Start Single Widget  */}
                                         <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">

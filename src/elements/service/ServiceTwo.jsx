@@ -1,33 +1,36 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+// import { RiShoppingBag2Fi } from "react-icons/fi";
+import { GiRollingEnergy } from "react-icons/gi"
+import { SiAmazonaws, SiMaterialdesign } from "react-icons/si"
+import { RiShoppingBag2Line } from "react-icons/ri"
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <RiShoppingBag2Line />,
+        title: 'Branding',
+        description: 'Growth marketing and generating innovation in branding and marketing strategies.'
     },
     {
-        icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <SiMaterialdesign />,
+        title: 'UI/UX',
+        description: 'Designing and developing complex UI/UX based on modern design practices.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <SiAmazonaws />,
+        title: 'WebApp/Mobile Developement',
+        description: 'Creating WebApps using latest stack technologies '
     },
     {
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <GiRollingEnergy />,
+        title: 'Animation/Motion Graphics',
+        description: 'Utilizing motion graphics and design to create smooth animations'
     }
 ]
 
 class ServiceTwo extends Component{
     render(){
         let title = 'Services',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.';
+        description = 'We cater to work in the following domains';
         return(
             <React.Fragment>
                 <div className="row">
@@ -36,7 +39,7 @@ class ServiceTwo extends Component{
                             <h2 className="title">{title}</h2>
                             <p>{description}</p>
                             <div className="service-btn">
-                                <a className="btn-transparent rn-btn-dark" href="/service"><span className="text">Request Custom Service</span></a>
+                                <a className="btn-transparent rn-btn-dark" href="/contact"><span className="text">Request Custom Service</span></a>
                             </div>
                         </div>
                     </div>
@@ -44,7 +47,7 @@ class ServiceTwo extends Component{
                         <div className="row service-one-wrapper">
                             {ServiceList.map( (val , i) => (
                                 <div className="col-lg-6 col-md-6 col-sm-6 col-12" key={i}>
-                                    <a href="/service-details">
+                                    {/* <a href="/service-details"> */}
                                         <div className="service service__style--2">
                                             <div className="icon">
                                                 {val.icon}
@@ -54,7 +57,7 @@ class ServiceTwo extends Component{
                                                 <p>{val.description}</p>
                                             </div>
                                         </div>
-                                    </a>
+                                    {/* </a> */}
                                 </div>
                             ))}
                         </div>

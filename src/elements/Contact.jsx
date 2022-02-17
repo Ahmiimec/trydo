@@ -28,13 +28,13 @@ class Contact extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
+                 <div className="rn-page-title-area pt--120 pb--190 bg-dark"  data-black-overlay="6">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Contact With Us</h2>
+                                    <p> To Infinity And Beyond 🚀 </p>
                                 </div>
                             </div>
                         </div>
@@ -98,13 +98,13 @@ class Contact extends Component{
                 {/* End Contact Top Area  */}
 
                 {/* Start Contact Page Area  */}
-                <div className="rn-contact-page ptb--120 bg_color--1">
+                {/* <div className="rn-contact-page ptb--120 bg_color--1">
                     <ContactTwo />
-                </div>
+                </div> */}
                 {/* End Contact Page Area  */}
 
                 {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
+                {/* <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
                         defaultCenter={this.props.center}
@@ -117,12 +117,12 @@ class Contact extends Component{
                         />
                         </GoogleMapReact>
                     </div>
-                </div>
+                </div> */}
                 {/* End Contact Map  */}
                 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -130,7 +130,7 @@ class Contact extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                 {/* Start Back To Top */}

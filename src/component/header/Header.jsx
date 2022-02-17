@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi";
+import './header.css'
 
 
 class Header extends Component{
@@ -60,7 +61,7 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li className="has-droupdown"><Link to="#">Home</Link>
+                                {/* <li className="has-droupdown"><Link to="#">Home</Link>
                                     <ul className="submenu">
                                         <li><Link to="/main-demo">Main Demo</Link></li>
                                         <li><Link to="/dark-main-demo">Main Demo Dark</Link></li>
@@ -116,15 +117,15 @@ class Header extends Component{
                                         <li><Link to="/columns">Columns</Link></li>
                                         <li><Link to="/pricing-table">Pricing Table</Link></li>
                                     </ul>
-                                </li>
-                                <li><Link to="/contact" >Contact</Link></li>
+                                </li> */}
+                                <li className="addMarginRight"><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>
-                        <div className="header-btn">
+                        {/* <div className="header-btn">
                             <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
                                 <span>buy now</span>
                             </a>
-                        </div>
+                        </div> */}
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>

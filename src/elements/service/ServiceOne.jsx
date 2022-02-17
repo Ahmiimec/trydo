@@ -3,18 +3,18 @@ import React, { Component } from "react";
 const ServiceList = [
     {
         icon: '01',
-        title: 'Business Stratagy',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Website / WebApp Developement',
+        description: 'Offering building and maintenance of websites and help perform well with a seamless user experience'
     },
     {
         icon: '02',
-        title: 'Website Development',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'UI / UX ',
+        description: 'Creating user-centered designs by understanding business requirements, and user feedback'
     },
     {
         icon: '03',
-        title: 'Marketing & Reporting',
-        description: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.'
+        title: 'Marketing & Branding',
+        description: `Offering a long-term, strategic plan to continuously boost a brand's recognition and reputation.`
     },
 ]
 
