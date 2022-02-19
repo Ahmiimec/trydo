@@ -19,7 +19,7 @@ class MainDemo extends Component{
         const PostList = BlogContent.slice(0 , 3);
         return(
             <div className="active-dark"> 
-                <Helmet pageTitle="Main Demo Dark" />
+                <Helmet pageTitle="| Lets Blend It |" />
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Slider Area   */}
