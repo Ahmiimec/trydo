@@ -3,7 +3,7 @@ import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa
 
 const SocialShare = [
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/company/letsblendit'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/hasnainmalik7'},
+    
 ]
 
 class Footer extends Component{
@@ -61,7 +61,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2021 Rainbow-Themes. All Rights Reserved.</p>
+                                                <p>Copyright © 2021 Blend. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>
