@@ -70,8 +70,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                                        <p><a href="mailto:hasnain@letsblendit.com">hasnain@letsblendit.com</a></p>
                                     </div>
                                 </div>
                             </div>
