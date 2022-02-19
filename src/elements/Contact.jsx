@@ -56,8 +56,7 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
+                                        <p><a href="tel:+92 336 5300959">+92 336 5300959</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +85,8 @@ class Contact extends Component{
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
+                                        <p><a target="_blank" href="https://www.google.com/maps/place/WorkZone+E-11/@33.7038955,72.9787521,15z/data=!4m2!3m1!1s0x0:0x73188293ab71c153?sa=X&ved=2ahUKEwjpyOPFq4v2AhXpIMUKHYiQDUgQ_BJ6BAglEAU">
+                                            Street 36 Silk Bank Plaza Lower Basement WorkZone,<br />MPCHS E 11/3 E-11, Islamabad, Islamabad Capital Territory</a></p>
                                     </div>
                                 </div>
                             </div>

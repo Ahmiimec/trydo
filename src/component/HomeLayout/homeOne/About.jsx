@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'LetsBlendIt is a digital agency passionate about storytelling, visual design, and technology. We collaborate with companies small to large around the world to help them engage their audiences and build brand awareness. ';
         return(
             <React.Fragment>
                 <div className="about-wrapper">
@@ -12,7 +12,7 @@ class About extends Component{
 
                             <div className="col-lg-5 col-md-12">
                                 <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/about/about-1.jpg" alt="About Images"/>
+                                    <img className="w-100" src="/about1.png" alt="About Images"/>
                                 </div>
                             </div>
 
@@ -26,13 +26,13 @@ class About extends Component{
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
                                                 <h3 className="title">Who we are</h3>
-                                                <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <p>As a master brand builder, we become an amazing partner to help build your vision.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                             <div className="about-us-list">
-                                                <h3 className="title">Who we are</h3>
-                                                <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                <h3 className="title">What we do?</h3>
+                                                <p>Our team can create amazing web experiences, beginning with deep market research, practical strategies, and professional execution. </p>
                                             </div>
                                         </div>
                                     </div>
